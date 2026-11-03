@@ -52,7 +52,11 @@ Each time the app runs, it schedules reminders up to 3 days ahead on ntfy.sh. To
 
 ## Using it on your phone
 
-A phone can't reach `localhost` on your laptop, so the folder has to be hosted somewhere first. GitHub Pages, Cloudflare Pages and Netlify all host static sites like this one for free. After that, open the link on your phone and add it to your home screen. Each device keeps its own data, so use Export / Restore backup to copy it across.
+The app is hosted free on GitHub Pages at **https://square-code-dot.github.io/study-planner/**. Open that link on your phone and add it to your home screen. Use the same link on your laptop too, so the Sync from Brightspace bookmark opens the hosted copy.
+
+Each device (and each address) keeps its own data. Sync or import on the laptop, then use Export backup there and Restore backup on the phone.
+
+To publish changes: commit them in this folder and run `git push`. GitHub Pages updates the site in about a minute. `.gitignore` keeps the checkpoint notes and any `.json` data files out of the repository.
 
 ## Files
 
