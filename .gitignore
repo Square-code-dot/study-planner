@@ -1,0 +1,7 @@
+# Work notes for this laptop only, never published with the app.
+CHECKPOINT.md
+.checkpoint_history/
+.checkpoint_journal.jsonl
+# Personal data exports (grades, deadlines) if any are saved here by mistake.
+*.json
+!package.json
